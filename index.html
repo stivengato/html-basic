@@ -6,16 +6,16 @@
         <meta name="description" content="Esta es mi primer Pagina Web" />
         <meta name="autor" content="Fazt" />
         <meta name="Keywords" content="Mi primer titulo, mi primer pagina, pagina web">
-        <link rel="stylesheet" href="estilos.css"
+        <link rel="stylesheet" href="./estilos.css">
     </head>
     <body>
 
         <div class="agrupar">
-                <header class="header">
+                <header class="cabecera">
                     <h1>Mi Blog</h1>
                 </header>
                 
-                <nav>       
+                <nav class="menu">      
                     <ul>
                            <li>Principal</li>
                            <li>ayuda</li>
@@ -23,40 +23,42 @@
                     </ul>
                 </nav>
 
-                <section>
+                <section class="seccion">
                      <article>
                          <hgroup>
                              <h1>Titulo del Primer Articulo</h1>
                              <h2>Subtitulo del Primer Articulo</h2>
                          </hgroup>
                          <time datetime="12-10-2018">Publicado 12-10-2018</time>
+                         <img src="images/logo.jpg">
                          <p>Loren, ipsum dolor sit amet consectetur adipisicing 
                          elit. <small>Voluptate earum eos ut molestias</small>
                          reiciendis enim, ad perferendis laudantium repudiandae 
                          itaque ullam deleniti eveniet fugiat commodi assumenda.
                          Aliquid blanditiis enim ea.</p>
-                         <img src="images/logo.jpg"
                          <footer>
-                         <p>Comentario (0)</p>
+                             <p>Comentario (0)</p>
                          </footer>
-                        <a href="http://google.com">Visita google</a>
-                        </article>
-                        <article>
-                        <hgroup>
-                        <h1>Titulo del Primer Articulo</h1>
-                       <h2>Subtitulo del Primer Articulo</h2> 
-                       </hgroup>
-                       <time datetime="12-10-2018">Publicado 12-10-2018</time>
-                       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam magni
-                       vel impedit laudantium commodi quibusdam in reiciendis nam itaque molestiae
-                       minus enim sint rerum dignissimos, sapiente voluptatibus fuga dolor a!</p>
-                <footer>
-                    <p>Comentarios (10)</p>
-                </footer>
-            </article>
-        </section>
+                         <address>
+                             <a href="http://google.com">Visita google</a>
+                         </address>    
+                     </article>
+                     <article>
+                         <hgroup>
+                             <h1>Titulo del Primer Articulo</h1>
+                             <h2>Subtitulo del Primer Articulo</h2> 
+                         </hgroup>
+                         <time datetime="12-10-2018">Publicado 12-10-2018</time>
+                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam magni
+                         vel impedit laudantium commodi quibusdam in reiciendis nam itaque molestiae
+                         minus enim sint rerum dignissimos, sapiente voluptatibus fuga dolor a!</p>
+                         <footer>
+                             <p>Comentarios (10)</p>
+                         </footer>
+                     </article>
+                </section>
 
-        <aside>
+        <aside class="columna">
             <blockquote cite="http://fazweb.com">
                 Mensaje 1
             </blockquote>
@@ -66,7 +68,7 @@
             </blockquote>
         </aside>
 
-        <footer>
+        <footer class="pie">
             Derechos Reservados 2010-2018
         </footer>
 
